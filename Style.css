@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Images/AP22225738111791.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height:15vh;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav .logo{
+  width: 25%;
+  text-align: center;
+  background-color: yellow;
+
+}
+
+nav .menu{
+
+ width: 40%;
+ background-color: yellow;
+ display: flex;
+ justify-content: space-around;
+
+}
+
+nav .menu a {
+
+width: 25%;
+text-decoration: none;
+color: black;
+font-weight: bold;
+
+}
+
+nav .menu a:first-child{
+    color: green;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section{
+
+}
+
+section h3{
+
+    font-size: 35px;
+    font-weight: 200px;
+    letter-spacing: 3px;
+    margin: 30px;
+    color: white;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+
+section .btnone{
+    background-color: green;
+    color: black;
+}
+
+section .btntwo{
+    background-color: green;
+    color: black;
+}
